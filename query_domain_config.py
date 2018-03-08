@@ -3,7 +3,7 @@
 import os,sys,time,re
 from datetime import datetime, timedelta, tzinfo
 from calendar import timegm
-from dnslib import DNSHelper
+from dnshelper import DNSHelper
 from optparse import OptionParser
 
 dnsRoot = '.example.com'
